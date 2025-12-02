@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Exercice d'édition numérique d'une carte postale</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document de formation, d'après un encodage de carte postale proposé par Lou Burnard.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>France</settlement>
+                  <repository>Médiathèque intercommunale Pau-Pyrénées</repository>
+                  <collection>Fonds Paul-Jean Toulet ; Don La Blanchetai, 1966</collection>
+                  <idno>Ms216-30</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <author>Claude Debussy</author>
+                     <title>Carte postale de Claude Debussy à Paul-Jean Toulet </title>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <p>1 Carte postale</p>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Claude Debussy</persName>
+               <placeName>Rome</placeName>
+               <date when="1914-02-21"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>JPaul Jean Toulet</persName>
+               <placeName>Saint-Loubès</placeName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="message" xml:lang="fr">
+            <opener><salute>Cher Toulet</salute></opener>
+            <p>Vous savez qu'on n'a jamais le temps d'écrire à <name>Paris</name>. C'est
+               pourquoi (...) </p>
+            <signed>Votre vieux dévoué, <name>Claude Debussy</name></signed>
+         </div>
+         <div type="destination">
+            <ab>
+               <stamp type="postmark">
+                  <placeName>Roma</placeName> Ferrovia <date when="1914-02-21" cert="medium"><unclear> 20-21</unclear> 21 II 1914</date>
+               </stamp>
+               <stamp type="postage">Profil de Victor Emmanuel III surplombée d'un bandeau :<mentioned>Poste italiane</mentioned></stamp>
+            </ab>            
+            <ab>
+               <address>
+                  <addrLine> Monsieur <name>P. J. Toulet</name></addrLine>
+                  <addrLine>Chateau de la Rafette à Saint-Loubès</addrLine>
+                  <addrLine>France - Gironde</addrLine>
+               </address>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

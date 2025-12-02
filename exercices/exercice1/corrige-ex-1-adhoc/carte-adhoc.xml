@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carte n="0010">
+    <recto url="https://gallica.bnf.fr/ark:/12148/btv1b10582689t/f2.item">
+        <legende>Le Grand Hôtel de Russie sur la Piazza del Populo – Via del Babuino</legende>
+    </recto>
+    <verso url="https://gallica.bnf.fr/ark:/12148/btv1b10582689t/f2.item">
+        <obliteration>
+            <date>21/11/1914</date>
+            <lieu>Rome</lieu>
+            <cachet>Roma Ferrovia</cachet>
+        </obliteration>
+        <message>
+            <p>Cher Toulet</p>
+            <p>Vous savez qu'on n'a jamais le temps d'écrire à Paris. C'est pourquoi (...) </p>
+            <p>Votre vieux dévoué</p>
+            <p>Claude Debussy</p>
+        </message>
+        <destinataire>
+                <p>Monsieur P. J. Toulet</p>
+                <p>Chateau de la Rafette à Saint-Loubès</p>
+                <p>France - Gironde.</p>
+        </destinataire>
+   </verso>
+</carte>
+

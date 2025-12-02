@@ -1,0 +1,45 @@
+
+***********************************************
+ Source
+***********************************************
+
+http://inslib.kcl.ac.uk/irt2009/IRT308.html
+http://inslib.kcl.ac.uk/irt2009/IRT308.xml
+
+Infos:
+http://ancientworldonline.blogspot.fr/2009/09/inscriptions-of-roman-tripolitania.html
+
+
+
+***********************************************
+ Edition (Diplomatic)
+***********************************************
+
+AVGVSTASALVTARIS
+CVIBIVSMARSVSPROCO[·······]IIDEDICAVIT
+
+
+
+
+***********************************************
+ Edition (Leiden)
+***********************************************
+
+Augusta Salutaris 
+C(aius) Vibius Marsus proco(n)[s(ul) I]II dedicauit
+
+
+
+
+***********************************************
+Edition (Leiden +) (cf. https://papyri.info/editor/)
+***********************************************
+
+
+1. Augusta Salutaris 2.  ( (|C|) (aius) ) Vibius Marsus ( (|proco|) (n) (| [s] |) [ (ul) ] ) <# [I] II =3#> dedicauit 
+
+
+
+
+
+***********************************************
