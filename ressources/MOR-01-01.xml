@@ -1,0 +1,563 @@
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="R296">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Stèle votive de Plumergat</title>
+				<title type="corpus">RIIG</title>
+			</titleStmt>
+			<editionStmt>
+				<edition>RIIG</edition>
+				<respStmt>
+                    <resp>First editor</resp>
+                    <persName key="MLE">Michel Lejeune</persName>
+                </respStmt>
+				<respStmt>
+                    <resp>Project coordinator and contributor</resp>
+                    <persName key="CRD">Coline Ruiz Darasse</persName>
+                </respStmt>
+				<respStmt>
+                    <resp>Contributor</resp>
+                    <persName key="HBT">Hugo Blanchet</persName>
+                </respStmt>
+				<respStmt>
+                    <resp>Metadata</resp>
+                    <resp>TEI encoding</resp>
+                    <persName key="NCR">Nolwenn Chevalier</persName>
+                </respStmt>
+			</editionStmt>
+			<publicationStmt>
+				<authority>UMR 5607 - Ausonius</authority>
+				<idno type="filename">MOR-01-01</idno>
+				<idno type="corpus-number">0</idno>
+				<date when="2022">2022</date>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/4.0/">Cette œuvre est mise à disposition selon les termes de la <ref target="http://creativecommons.org/licenses/by/4.0/">Licence Creative Commons Attribution 4.0 International</ref>. </licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note/>
+			</notesStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country/>
+						<region/>
+						<settlement/>
+						<repository/>
+						<collection/>
+						<idno type="invNo"/>
+						<idno type="TM">172744</idno>
+						<idno type="localID">L15</idno>
+						<altIdentifier>
+                            <idno type="localID">L-15</idno>
+                        </altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<summary corresp="https://www.eagle-network.eu/voc/typeins/lod/81" resp="#RIIG">Inscription religieuse / cultuelle </summary>
+						<textLang mainLang="xtg-Latn"/>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<desc resp="#MLE">
+                                        <objectType ref="https://ark.frantiq.fr/ark:/26678/pcrtvpHLEemb4v">Stèle</objectType> en <material ref="https://www.eagle-network.eu/voc/material/lod/11">granit</material> à grain très dur, médiocrement propice à l'écriture gravée, prenant la forme d'une borne en forme de tronc de pyramide octogonale irrégulière, se terminant en calotte hémisphérique. De grandes plaques de lichen se développent sur la pierre, mais le panneau inscrit en est dégagé. Hauteur hors sol <dimensions unit="cm">
+                                            <height>83</height>
+                                        </dimensions> cm (mais profondeur d'enterrement non connue : de l'ordre de <dimensions unit="cm">
+                                            <height min="30">30</height>
+                                        </dimensions> cm à <dimensions unit="cm">
+                                            <height max="40">40</height>
+                                        </dimensions> cm ?). Diamètre au sol <dimensions unit="cm">
+                                            <dim type="diameter">58</dim>
+                                        </dimensions> cm. </desc>
+								</support>
+								<condition>Stèle complète, inscription <rs type="statPreserv" corresp="https://www.eagle-network.eu/voc/statepreserv/lod/11">érodée</rs>. </condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout>
+									<desc resp="#MLE">Le panneau occidental (haut, calotte non comprise, de <dimensions unit="cm">
+                                            <height>76</height>
+                                        </dimensions> cm ; <dimensions unit="cm">
+                                            <width>32</width>
+                                        </dimensions> cm de large en bas × <dimensions unit="cm">
+                                            <height>25</height>
+                                        </dimensions> cm de haut) est <rs type="writing" corresp="https://www.eagle-network.eu/voc/writing/lod/3">gravée</rs> sur six lignes horizontales d'inégales longueurs ; les deux premières, ayant plus que les autres souffert des atteintes du temps, sont passées inaperçues des premiers observateurs et n'ont été décelées que par <persName key="GiBR">Bernier</persName>. </desc>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<handNote scribe="unknown">
+								<desc resp="#MLE">Lettres de <dimensions unit="cm">
+                                        <height min="6">6</height>
+                                    </dimensions> cm (certains <emph>o</emph>) à <dimensions unit="cm">
+                                        <height max="10">10</height>
+                                    </dimensions> cm (ainsi le <emph>s</emph> final de la l.1) de hauteur. Écriture d'une maladresse que ne sauraient excuser la dureté et le grain de la pierre ; usant, d'autre part, de façon à peu près constante de ligatures qui la transforment en une sorte de <rs type="execution" key="cursive">cursive</rs> ; au total, de lecture ardue et plus d'une fois incertaine. On croit être devant le travail d'un demi-illettré. Aussi ne se prête-t-elle guère qu'à des supputations chronologiques fragiles. </desc>
+							</handNote>
+						</handDesc>
+						<scriptDesc>
+							<scriptNote/>
+						</scriptDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origDate notBefore="0201" notAfter="0400" corresp="http://n2t.net/ark:/99152/p09hq4nzg3z http://n2t.net/ark:/99152/p09hq4nsg2k" cert="low" evidence="context" resp="#MLE">III<hi rend="superscript">e</hi>/IV<hi rend="superscript">e</hi> siècle</origDate>
+							<origPlace type="found">
+								<country ref="https://www.trismegistos.org/place/693">France</country>
+								<region>Bretagne</region>
+								<district>Morbihan</district>
+								<settlement ref="https://riig.huma-num.fr/places/176" corresp="https://www.trismegistos.org/place/19275">
+                                    <placeName type="modern" xml:lang="fr">Plumergat</placeName>
+                                </settlement>
+								<placeName type="provinceItalicRegion" ref="https://www.trismegistos.org/place/19858">Lugdunensis</placeName>
+								<placeName type="ethnic">Venetii</placeName>
+								<placeName ref="https://riig.huma-num.fr/places/176">Enclos paroissial</placeName>
+								<location cert="medium" resp="#MLE">
+									<geo decls="#WGS84">47,74186 -2,918201</geo>
+								</location>
+							</origPlace>
+						</origin>
+						<provenance type="found" resp="#MLE">
+							<rs type="circumstances">L'inscription principale a été au <date atLeast="1801" atMost="1900">XIX<hi rend="superscript">e</hi> siècle</date> signalée par <persName key="CKH">C. de Keranflech</persName> (d'abord en <date type="found" when="1858">1858</date>, plus tard en <date when="1896">1896</date>) à <placeName type="ancientFindspot">Plumergat</placeName> et par <persName key="LRG">L. Rosenzweig</persName> (<date when="1864">1864</date>) ; le premier en avait tenté des interprétations fantaisistes par le breton ; et il est encore suivi dans cette voie en <date when="1936">1936</date> par P. Marsile. C'est à <persName key="PiGT">P. R. Giot</persName> que revient le mérite d'avoir suggéré, en <date when="1952">1952</date>, d'orienter la recherche herméneutique vers le gaulois. </rs>
+							<rs type="context">Aucun autre vestige antique que la borne à inscription gauloise <note>
+                                    <bibl corresp="https://riig.huma-num.fr/documents/MOR-01-01">MOR-01-01</bibl>
+                                </note> qui se dresse dans l'enclos paroissial entre la porte méridionale de l'église et le cimetière. Sans doute est-elle encore aujourd'hui à l'emplacement où des Vénètes jadis l'érigèrent, en gravant une dédicace sur l'une de ses faces. </rs>
+							<rs type="micro-context"/>
+							<rs type="datation">Datation incertaine. </rs>
+						</provenance>
+						<provenance type="observed" subtype="autopsied" resp="#MLE">
+							<p>Références à ces divers articles dans l'édition princeps (et, à ce jour, unique) du texte gaulois, par <persName key="GiBR">Gildas Bernier</persName> : <bibl corresp="http://zotero.org/groups/2657791/items/MZWA4QNA http://zotero.org/groups/2657791/items/83G6HKBV"><!--Bernier 1970-->
+                                    <citedRange unit="page">655-667</citedRange>
+                                </bibl> ; elle est suivie d'une note de <persName key="MLE">Michel Lejeune</persName> (<bibl corresp="http://zotero.org/groups/2657791/items/3Z59QQB3"><!--Lejeune 1973-->
+                                    <citedRange unit="page">669-672</citedRange>
+                                </bibl>). </p>
+						</provenance>
+						<provenance type="reported" subtype="autopsied">
+							<p>Photographié dans le cadre du projet RIIG par <persName key="NCR">Nolwenn Chevalier</persName> en <date when="2020">2020</date>. </p>
+						</provenance>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<editorialDecl>
+				<p/>
+			</editorialDecl>
+			<classDecl>
+				<taxonomy>
+					<category/>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="xtg-Grek">gaulois écrit en alphabet grec</language>
+				<language ident="xtg-Latn">gaulois écrit en alphabet latin</language>
+				<language ident="fr">français</language>
+				<language ident="la">latin</language>
+				<language ident="xlp">lépontique</language>
+				<language ident="cel">celtique</language>
+				<language ident="ine">indo-européen</language>
+				<language ident="xve">vénète</language>
+				<language ident="obt">vieux-breton</language>
+				<language ident="xtg">gaulois transalpin</language>
+			</langUsage>
+			<textClass>
+				<keywords>
+					<list>
+						<item>Histoire -- Protohistoire -- Antiquité</item>
+					</list>
+				</keywords>
+			</textClass>
+			<particDesc>
+				<listPerson type="editorial">
+					<person xml:id="CRD" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?coline.ruiz-darasse">
+						<persName>
+							<forename>Coline</forename>
+							<surname>Ruiz Darasse</surname> (Chargée de recherches au CNRS)
+						</persName>
+					</person>
+					<person xml:id="NPT" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?nathalie.prevot">
+						<persName>
+							<forename>Nathalie</forename>
+							<surname>Prévôt</surname> (Ingénieur CNRS en Humanités Numériques et responsable AusoHNum)
+						</persName>
+					</person>
+					<person xml:id="NCR" corresp="http://ausonius.u-bordeaux-montaigne.fr/annuaire?nolwenn.chevalier">
+						<persName>
+							<forename>Nolwenn</forename>
+							<surname>Chevalier</surname> (AI ANR RIIG)
+						</persName>
+					</person>
+				</listPerson>
+			</particDesc>
+		</profileDesc>
+		<revisionDesc status="high">
+			<listChange>
+				<change who="#NPT" when="2020-01-08">XML File programmatically created from CSV file</change>
+				<change who="#NCR" when="2020-05-18">Addition of the RIG data in the XML file</change>
+				<change who="#NCR" when="2020-07-02">Revision of the indentation</change>
+				<change who="#CRD" when="2020-08-17">First global revision by Coline Ruiz Darasse</change>
+				<change who="#NCR" when="2020-09-02">Addition of new markups to manage paragraphs problems in the document provenance</change>
+				<change who="#NCR" when="2020-09-18">Addition of glyphs</change>
+				<change who="#NCR" when="2020-09-22">Replacement of the old RIG numbering by the new RIIG identifiers</change>
+				<change who="#NCR" when="2020-10-01">Added RIG page numbers for figures</change>
+				<change who="#NCR" when="2020-10-08">Addition of provinces</change>
+				<change who="#HBT" when="2022-02-11">Revision of the reading</change>
+				<change who="#CRD" when="2022-02-16">Revision of the reading</change>
+				<change who="#CRD" when="2022-06-30">Addition of a comment</change>
+			</listChange>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+        <graphic url="https://www.nakala.fr/iiif/11280/e5b2801a">
+			<desc type="view">Borne de Plumergat (relief)</desc>
+			<desc type="copyright">RIIG (ANR 19-CE27-0003) </desc>
+			<desc type="author">Nolwenn Chevalier  - Ausonius UMR 5607</desc>
+			<desc type="licence">
+				<ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</ref>
+			</desc>
+		</graphic>
+        <graphic url="https://www.nakala.fr/iiif/11280/e2969e4a">
+			<desc type="view">Borne de Plumergat (relief · dos)</desc>
+			<desc type="copyright">RIIG (ANR 19-CE27-0003) </desc>
+			<desc type="author">Nolwenn Chevalier  - Ausonius UMR 5607</desc>
+			<desc type="licence">
+				<ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</ref>
+			</desc>
+		</graphic>
+        <graphic url="https://www.nakala.fr/iiif/11280/02652fbb">
+			<desc type="view">Borne de Plumergat (occlusion)</desc>
+			<desc type="copyright">RIIG (ANR 19-CE27-0003) </desc>
+			<desc type="author">Nolwenn Chevalier  - Ausonius UMR 5607</desc>
+			<desc type="licence">
+				<ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</ref>
+			</desc>
+		</graphic>
+        <graphic url="https://www.nakala.fr/iiif/11280/8d210828">
+			<desc type="view">Borne de Plumergat (occlusion · dos)</desc>
+			<desc type="copyright">RIIG (ANR 19-CE27-0003) </desc>
+			<desc type="author">Nolwenn Chevalier  - Ausonius UMR 5607</desc>
+			<desc type="licence">
+				<ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</ref>
+			</desc>
+		</graphic>
+        <graphic url="https://www.nakala.fr/iiif/11280/36d37652">
+			<desc type="view">Borne de Plumergat (vue générale)</desc>
+			<desc type="copyright">RIIG (ANR 19-CE27-0003) </desc>
+			<desc type="author">Nolwenn Chevalier  - Ausonius UMR 5607</desc>
+			<desc type="licence">
+				<ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</ref>
+			</desc>
+		</graphic>
+		<surface>
+			<media url="MOR-01-01.json" mimeType="model/obj">
+				<desc type="view">3D</desc>
+				<desc type="copyright">à compléter</desc>
+				<desc type="author">Florent Comte - Ausonius UMR 5607</desc>
+				<desc type="licence">
+					<ref target="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</ref>
+				</desc>
+			</media>
+		</surface>
+	
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition">
+				<div type="textpart" rend="case(sensitive)">
+					<ab>
+						<seg resp="#GiBR" xml:lang="xtg-Latn" xml:id="GiBR-a" cert="medium">
+							<lb n="1"/>
+							<w pos="NOM" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>VABROS</orig>
+									<reg>vabros</reg>
+								</choice>
+							</w>
+							<lb n="2"/>
+							<w pos="verb" msd="P3 sg PRS">
+								<choice>
+									<orig>
+                                        <gap quantity="3" unit="character" reason="lost"/>
+                                        <rs type="verbal_inflexion">AT</rs>
+                                    </orig>
+									<reg>
+                                        <gap quantity="3" unit="character" reason="lost"/>
+                                        <rs type="verbal_inflexion">at</rs>
+                                    </reg>
+								</choice>
+							</w>
+							<lb n="3"/>
+							<w pos="DAT" msd="pl m 3" type="theonym">
+								<choice>
+									<orig>ATREBO</orig>
+									<reg>atrebo</reg>
+								</choice>
+							</w>
+							<lb n="4"/>
+							<w pos="DAT" msd="pl m 3" type="adjective" subtype="epiclesis">
+								<choice>
+									<orig>AGANNTO<lb n="5" break="no"/>BO</orig>
+									<reg>agannto<lb n="5" break="no"/>bo</reg>
+								</choice>
+							</w>
+							<w pos="DAT" msd="sg m 2" type="patronym">
+								<choice>
+									<orig>DVRN<lb n="6" break="no"/>EO</orig>
+									<reg>
+                                        <rs type="stem">durn</rs>
+                                        <lb n="6" break="no"/>eo</reg>
+								</choice>
+							</w>
+							<w pos="DAT" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>GIAPO</orig>
+									<reg>giapo</reg>
+								</choice>
+							</w>
+						</seg>
+						<seg resp="#MLE" xml:lang="xtg-Latn" xml:id="MLE-a" cert="medium">
+							<lb n="1"/>
+							<w pos="NOM" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>VABROS</orig>
+									<reg>vabros</reg>
+								</choice>
+							</w>
+							<lb n="2"/>
+							<w pos="verb" msd="P3 sg">
+								<choice>
+									<orig>
+                                        <gap quantity="3" unit="character" reason="lost"/>
+                                        <rs type="verbal_inflexion">AT</rs>
+                                    </orig>
+									<reg>
+                                        <gap quantity="3" unit="character" reason="lost"/>
+                                        <rs type="verbal_inflexion">at</rs>
+                                    </reg>
+								</choice>
+							</w>
+							<lb n="3"/>
+							<w pos="DAT" msd="pl m 3" type="theonym">
+								<choice>
+									<orig>ATREBO</orig>
+									<reg>atrebo</reg>
+								</choice>
+							</w>
+							<lb n="4"/>
+							<w pos="DAT" msd="pl m 3" type="adjective" subtype="epiclesis">
+								<choice>
+									<orig>AGANNTO<lb n="5" break="no"/>BO</orig>
+									<reg>agannto<lb n="5" break="no"/>bo</reg>
+								</choice>
+							</w>
+							<w pos="DAT" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>DVRN<lb n="6" break="no"/>EO</orig>
+									<reg>
+                                        <rs type="stem">durn</rs>
+                                        <lb n="6" break="no"/>eo</reg>
+								</choice>
+							</w>
+							<w pos="DAT" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>GIAPO</orig>
+									<reg>giapo</reg>
+								</choice>
+							</w>
+						</seg>
+						<seg resp="#PLT" xml:lang="xtg-Latn" xml:id="PLT-a" cert="medium">
+							<lb n="1"/>
+							<w pos="NOM" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>VABROS</orig>
+									<reg>vabros</reg>
+								</choice>
+							</w>
+							<lb n="2"/>
+							<w pos="verb" msd="P3 sg">
+								<choice>
+									<orig>
+                                        <unclear reason="illegible">IIIOOVT</unclear>
+                                    </orig>
+									<reg>
+                                        <unclear reason="illegible">iiioout</unclear>
+                                    </reg>
+								</choice>
+							</w>
+							<lb n="3"/>
+							<w pos="DAT" msd="pl m 3" type="theonym">
+								<choice>
+									<orig>ATREBO</orig>
+									<reg>atrebo</reg>
+								</choice>
+							</w>
+							<lb n="4"/>
+							<w pos="DAT" msd="pl m 3" type="adjective" subtype="epiclesis">
+								<choice>
+									<orig>AGANNTO<lb n="5" break="no"/>BO</orig>
+									<reg>agannto<lb n="5" break="no"/>bo</reg>
+								</choice>
+							</w>
+							<w pos="DAT" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>DVRN<lb n="6" break="no"/>EO</orig>
+									<reg>
+                                        <rs type="stem">durn</rs>
+                                        <lb n="6" break="no"/>eo</reg>
+								</choice>
+							</w>
+							<w pos="DAT" msd="sg m 2" type="idionym">
+								<choice>
+									<orig>GIAPO</orig>
+									<reg>giapo</reg>
+								</choice>
+							</w>
+						</seg>
+					</ab>
+				</div>
+			</div>
+
+			<!-- Commentaire : -->
+			<div type="apparatus" corresp="#GiBR-a #MLE-a" resp="#MLE">
+				<p>
+                    <label>Les dieux invoqués</label>
+                </p>
+				<p>À <persName key="GiBR">Bernier</persName> revient le mérite d'avoir délimité et interprété les deux mots qui définissent le texte comme gaulois : <mentioned ana="theonym" xml:lang="xtg">atrebo</mentioned> et <mentioned ana="substantive" xml:lang="xtg">aganntobo</mentioned> soit deux datifs pluriels (substantif + adjectif ou participe) : « <mentioned xml:lang="la">patribus ...ibus</mentioned> ». </p>
+				<p>Bienvenu est l'apport de <mentioned ana="theonym" xml:lang="xtg">atrebo</mentioned> en regard du <mentioned xml:lang="xtg-Grek">ματρεβο</mentioned> « <mentioned xml:lang="la">mātribus</mentioned> » déjà connu (<placeName>Glanum</placeName> <bibl corresp="https://riig.huma-num.fr/documents/BDR-12-02">BDR-12-02</bibl> ; <placeName>Nîmes</placeName> <bibl corresp="https://riig.huma-num.fr/documents/GAR-10-01">GAR-10-01</bibl>). </p>
+				<p>Le second mot (thème en <mentioned xml:lang="xtg">-nt-</mentioned>) nous apprend qu'entre groupe de consonnes et désinence en <emph>-b...</emph>, la (nécessaire) voyelle de liaison était <emph>o</emph> : on peut la supposer empruntée à la deuxième déclinaison, et attendre donc que le dat. pl. thématique gaulois ait été en <mentioned ana="thematic_vowel" xml:lang="xtg">-obo</mentioned> (cf. lépontique <mentioned ana="thematic_vowel" xml:lang="xlp">-OPOS</mentioned> ; celtibère, avec <emph>-ŏ-</emph> &gt; <emph>ŭ-</emph> devant labiale, <emph>-uPoś</emph>). Avec graphie géminée de la consonne initiale d'un groupe intervocalique (type de grec épigraphique <mentioned xml:lang="grc">αρισστος</mentioned> ; <mentioned xml:lang="grc">τεθαππται</mentioned>, etc.), participe d'un thème verbal celt. <mentioned ana="stem" xml:lang="cel">*ā̌ga-</mentioned>, dénominatif possible sur un thème nominal celt. <mentioned ana="stem" xml:lang="cel">*ā̌go-</mentioned>. </p>
+				<p>On songera alors volontiers à la racine <mentioned ana="root" xml:lang="ine">*pāg-</mentioned>/<mentioned ana="root" xml:lang="ine">*pəg-</mentioned> « ficher solidement » (<bibl corresp="http://zotero.org/groups/2657791/items/X4FFQK8V"><!--IEW-->
+                        <citedRange unit="page">787</citedRange>
+                    </bibl>), plus particulièrement à un nom <mentioned ana="substantive" xml:lang="xtg">*pāgo-</mentioned> qui désignerait la « borne », le verbe celt. <mentioned ana="verb" xml:lang="cel">*āgā-</mentioned> signifiant alors « borner, délimiter ». D'autant plus volontiers que l'inscription est portée, précisément, par une borne. Il s'agirait, non d'un dieu Terme, à la romaine, mais, au pluriel, de « <mentioned ana="theonym" xml:lang="la">deī terminālēs</mentioned> », comme dans les croyances d'autres Vénètes, ceux de l'Adriatique : l'inscription vénète de <placeName>Padoue</placeName> <bibl corresp="http://zotero.org/groups/2657791/items/TZAJHKN2"><!--Lejeune 1974-->
+                        <citedRange unit="page">125</citedRange>
+                    </bibl> met aussi en cause (acc. pl.) <mentioned ana="theonym" xml:lang="xve">deivos termonios</mentioned> « les dieux du bornage ». </p>
+				<p>
+                    <label>Le contexte</label>
+                </p>
+				<p>Le dédicant (l.1) serait un certain <mentioned ana="idionym" xml:lang="xtg">Vabros</mentioned> ; nom plausible : deux témoins connus (<bibl corresp="http://zotero.org/groups/2657791/items/34W5PCBI"><!--CIL-->
+                        <biblScope unit="volume">III</biblScope>
+                        <citedRange unit="entry">4600</citedRange>
+                    </bibl>, <bibl corresp="http://zotero.org/groups/2657791/items/34W5PCBI"><!--CIL-->
+                        <biblScope unit="volume">VII</biblScope>
+                        <citedRange unit="entry">643</citedRange>
+                    </bibl>) pour une souche <mentioned ana="stem" xml:lang="xtg">Vabro-</mentioned> (cf. <bibl corresp="http://zotero.org/groups/2657791/items/9LE83Y7L"><!--Holder III-->
+                        <biblScope unit="volume">III</biblScope>
+                        <citedRange unit="entry">71</citedRange>
+                    </bibl>). </p>
+				<p>À la l.2, <persName key="GiBR">Bernier</persName> cherche un verbe, avec finale <mentioned ana="flexional_ending" xml:lang="xtg">-at</mentioned> de présent 3<hi rend="superscript">e</hi> sg. L'usage du présent, beaucoup plus rare que celui du prétérit, n'est cependant pas sans exemple (cf. l'inscription <bibl corresp="https://riig.huma-num.fr/documents/GAR-02-03">GAR-02-03</bibl> de <placeName>Beaucaire</placeName>). Le singulier est de rigueur après le sujet <mentioned ana="idionym" xml:lang="xtg">Vabros</mentioned> ; <mentioned ana="flexional_ending" xml:lang="xtg-Latn">-AT</mentioned> est alors à préférer à <mentioned ana="flexional_ending" xml:lang="xtg-Latn">-ANT</mentioned> (bien que <mentioned ana="flexional_ending" xml:lang="xtg-Latn">-ANT</mentioned> soit peut-être meilleur épigraphiquement). L'identité du verbe reste hors de portée. </p>
+				<p>Dans la fin du texte (qu'il coupe : <mentioned ana="patronym" xml:lang="xtg">durn|eo</mentioned> <mentioned ana="idionym" xml:lang="xtg">giapo</mentioned>), <persName key="GiBR">Bernier</persName> propose de voir la personne au nom de qui, pour qui, <measure>Vabros</measure> agit : « au nom du fils de Durnos, Giapos » (avec adjectif patronymique, ici en <mentioned ana="suffixe patronymic" xml:lang="xtg">-eo-</mentioned>, précédant, de façon insolite, l'idionyme ; à moins que <mentioned ana="idionym" xml:lang="xtg">Durneos</mentioned> et <mentioned ana="idionym" xml:lang="xtg">Giapos</mentioned> ne soient deux idionymes en asyndète). Sont connues par ailleurs une souche <mentioned ana="stem" xml:lang="xtg">Durno-</mentioned> (<bibl corresp="http://zotero.org/groups/2657791/items/9LE83Y7L"><!--Holder I-->
+                        <biblScope unit="volume">I</biblScope>
+                        <citedRange unit="entry">1382</citedRange>
+                    </bibl>) et une souche <mentioned ana="stem" xml:lang="xtg">Giapo-</mentioned> (<bibl corresp="http://zotero.org/groups/2657791/items/9LE83Y7L"><!--Holder I-->
+                        <biblScope unit="volume">I</biblScope>
+                        <citedRange unit="entry">2020</citedRange>
+                    </bibl> : une <mentioned ana="idionym" xml:lang="xtg">Giappa</mentioned> à <placeName>Langres</placeName>). Voir là, alors, deux exemples de dat. sg. thématique en <mentioned ana="thematic_vowel" xml:lang="xtg-Latn">-O</mentioned>, doublet orthographique (plus rare) de <mentioned ana="thematic_vowel" xml:lang="xtg-Latn">-V</mentioned>. </p>
+			</div>
+			<div type="translation" corresp="GiBR-a" resp="#MLE">
+				<p>Vabros a dressé (ceci) aux Pères de la borne (ou du pays) au nom du fils de Durnos, Giapos. </p>
+			</div>
+			<div type="translation" corresp="GiBR-a" resp="#MLE">
+				<p>Vabros a dressé (ceci) aux Pères de la borne (ou du pays) pour Giapos fils de Durnos. </p>
+			</div>
+			<div type="translation" corresp="MLE-a" resp="#MLE">
+				<p>Vabros a dressé (ceci) aux Pères de la borne (ou du pays) pour Giapos et Durnos. </p>
+			</div>
+			<div type="translation" corresp="PLT-a" resp="#PLT">
+				<p>Vabros (a offert ?) aux Pères-frontières... </p>
+			</div>
+			<div type="commentary" subtype="sociolinguistic" corresp="#MLE-a" resp="#MLE">
+				<p>À propos de la traduction de <persName key="GiBR">Bernier</persName>. </p>
+				<p>Au temps près du verbe, et en choisissant la variante « borne », on pourrait donc s'y ranger : mais l'auteur ajoute, de façon imprévue, que <mentioned ana="idionym" xml:lang="xtg">Giapos</mentioned>, est sans doute le mort pour qui a été élevée la stèle. Nous ne pensons pas que ce soit pour un mort que la dédicace ait été faite, mais au nom d'un vivant, pour quelque raison empêché. </p>
+			</div>
+
+			<div type="commentary" subtype="general" resp="#ΕLM" xml:lang="en">
+				<p>
+                    <emph>Durno-</emph> : Cf. <emph>Durnus</emph> (<bibl corresp="http://zotero.org/groups/2657791/items/VETP2EVC"><!--Morlet 1972-1985-->
+                        <citedRange unit="page">83-84</citedRange>
+                    </bibl>), Dagodurnus (<bibl corresp="http://zotero.org/groups/2657791/items/8K27V2SR"><!--Schmidt 1957-->
+                        <citedRange unit="page">187 and 201</citedRange>
+                    </bibl>, <bibl corresp="http://zotero.org/groups/2657791/items/9LE83Y7L"><!--Holder 1962-->
+                        <biblScope unit="volume">I</biblScope>
+                        <citedRange unit="page">1215</citedRange>
+                    </bibl>), and <emph>Durnacos</emph> (<bibl corresp="http://zotero.org/groups/2657791/items/BCBMBN73"><!--Luján 2003--></bibl>). 
+				</p>
+			</div>
+
+			<!-- Description détaillée du document : -->
+			<div type="commentary" subtype="physDesc">
+				<div type="commentary" subtype="support" resp="#MLE">
+					<p>Si la borne n'a jamais été déplacée, elle a en revanche reçu au Moyen-Âge (entre le <date notBefore="0801" notAfter="1100">IX<hi rend="superscript">e</hi> et le XI<hi rend="superscript">e</hi> siècle</date> ?) deux adjonctions épigraphiques (probablement contemporaines) sur d'autres faces : d'une part la gravure d'une croix, d'autre part (verticalement), celle du nom breton <mentioned ana="idionym" xml:lang="obt">rimoete</mentioned> en onciale carolingienne : initiative pieuse pour exorciser un monument païen (le nom <mentioned ana="idionym" xml:lang="obt">rimoete</mentioned> étant sans doute celui du clerc qui fit graver le symbole chrétien). </p>
+				</div>
+				<div type="commentary" subtype="layout" resp="#MLE"/>
+				<div type="commentary" subtype="handNote" resp="#MLE">
+					<p>Lettres latines (<emph>e</emph> est de type <emph>E</emph>) d'une extrême gaucherie. Parfois inversées latéralement soit pour entrer en ligature (ainsi le <emph>r</emph> de <emph>atrebo</emph>, l.3, qui fait haste commune avec le <emph>e</emph> qui suit), soit hors ligature (ainsi <emph>s</emph>, l.1). Manie des ligatures (allant jusqu'à unir d'un trait les deux pieds du second <emph>a</emph> de la l.4, et les pieds voisins des deux <emph>n</emph> qui suivent). Une telle écriture, qui tend à séparer le moins possible les lettres, ne sépare pas les mots (dans aucune des lignes il n'y a de démarcation par blanc ou point) ; quant à une coïncidence entre fins de lignes et fins de mots, on peut douter que le graveur s'y soit tenu si <emph>-RN</emph> est la bonne lecture à la fin de la l.5. </p>
+					<p>Usant principalement de l'estampage <persName key="GiBR">Bernier</persName> (mais avec circonspection), on fera les observations suivantes. </p>
+					<p>L.1, <emph>VABROS</emph> (<persName key="GiBR">Bernier</persName>) probable, encore que le trait oblique inférieur de <emph>R</emph> ne soit plus visible ; <emph>S</emph> angulaire à trois segments (et inversé). </p>
+					<p>L.2, les dernières lettres sont lues <emph>AT</emph> par <persName key="GiBR">Bernier</persName>, mais l'inclinaison du <emph>A</emph> vers la gauche s'expliquerait mieux dans l'hypothèse d'une ligature <emph>-AVT</emph>, voire <emph>ANT</emph> ; ce qui précède (<persName key="GiBR">Bernier</persName> : <emph>IVGAT</emph> ? <emph>LEGAT</emph> ?) nous paraît désespéré. </p>
+					<p>L. 3, <emph>ATREBO</emph> ; la barrette inférieure du <emph>E</emph> est plongeante (comme l.6), la barrette médiane tout juste devinable ; pieds de <emph>A</emph>, <emph>T</emph>, <emph>R</emph> unis par un trait. </p>
+					<p>L. 4, <emph>AGANNTO</emph>. </p>
+					<p>L. 5, <emph>BODVRN</emph> <persName key="GiBR">Bernier</persName>, mais <emph>...RIV</emph> non exclu. </p>
+					<p>L. 6, <emph>EOGIAPO</emph>. </p>
+					<p>Essai de transcription avec un notable coefficient d'incertitude. </p>
+				</div>
+			</div>
+
+			<!-- Description détaillée de l'origine document : -->
+			<div type="commentary" subtype="history">
+				<div type="commentary" subtype="context" resp="#RIIG">
+					<p>Près de l'église de Plumergat se trouvent treize stèles de l'âge du Fer, anépigraphes à l'exception, dans l’enceinte paroissiale, d'une stèle de section octogonale portant une inscription gauloise possiblement datée du III<hi rend="superscript">e</hi> ou IV<hi rend="superscript">e</hi> siècle de notre ère. La stèle porte également une inscription médiévale, possiblement en vieux breton. </p>
+				</div>
+				<div type="commentary" subtype="micro-context" resp="#MLE"/>
+				<div type="commentary" subtype="datation" resp="#MLE">
+					<p>Pour des raisons historiques (persécution des druides sous Claude), <persName key="GiBR">Bernier</persName> voudrait que l'inscription ne soit pas postérieure au <date atLeast="0001" atMost="0100">milieu du I<hi rend="superscript">er</hi> siècle</date> ; une telle datation nous paraît bien improbable ; l'argument invoqué ne vaut pas : ainsi, cent cinquante ans après Claude, voit-on les druides de <placeName>Coligny</placeName> faire graver leur calendrier rituel. Si (abstraction faite, un moment, de la langue de ce texte votif) on voulait apprécier l'âge du document à partir du seul aspect, informe et grossier, de l'écriture, on penserait volontiers à l'Antiquité tardive (et précieux serait alors un tel témoin de la survie du gaulois en Armorique à l'approche des temps où vont y débarquer les Bretons d'outre-Manche). Mais il y aurait imprudence, dans ce débat de portée considérable, à tirer argument d'une simple impression. </p>
+				</div>
+			</div>
+			
+			<!-- Bibliographie : -->
+			<div type="bibliography" subtype="principalEdition">
+				<listBibl>
+					<bibl>
+                        <ptr target="http://zotero.org/groups/2657791/items/I7RM4NME"/>
+                        <citedRange unit="page">177-181</citedRange>
+                    </bibl>
+					<bibl>
+                        <ptr target="http://zotero.org/groups/2657791/items/I7RM4NME"/>
+                        <citedRange unit="page">178-180</citedRange>
+                        <citedRange unit="figure">91-94</citedRange>
+                    </bibl>
+				</listBibl>
+			</div>
+			<div type="bibliography" subtype="otherEditions">
+				<listBibl resp="#MLE">
+					<bibl><!--CIL-->
+                        <ptr target="http://zotero.org/groups/2657791/items/34W5PCBI"/>
+                    </bibl>
+					<bibl><!--Holder 1962-->
+                        <ptr target="http://zotero.org/groups/2657791/items/9LE83Y7L"/>
+                    </bibl>
+					<bibl><!--IEW-->
+                        <ptr target="http://zotero.org/groups/2657791/items/X4FFQK8V"/>
+                    </bibl>
+					<bibl><!--Lejeune 1973b-->
+                        <ptr target="http://zotero.org/groups/2657791/items/3Z59QQB3"/>
+                    </bibl>
+					<bibl><!--Lejeune 1974-->
+                        <ptr target="http://zotero.org/groups/2657791/items/TZAJHKN2"/>
+                    </bibl>
+				</listBibl>
+				<listBibl resp="#RIIG">
+                    <bibl/>
+                </listBibl>
+			</div>
+			<div type="bibliography">
+				<listBibl corresp="https://www.zotero.org/groups/2657791/riig/collections/HYGSGLNE" type="RIG">
+					<bibl/>
+				</listBibl>
+				<listBibl corresp="https://www.zotero.org/groups/2657791/riig/collections/8ICCZ54L" type="RIIG">
+					<bibl/>
+				</listBibl>
+			</div>
+		</body>
+	</text>
+</TEI>

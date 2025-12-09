@@ -1,0 +1,3 @@
+TRANSFORMATION XSLT
+    
+    Nombre de mots (balise TEI w) : 18

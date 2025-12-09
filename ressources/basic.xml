@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Chanson d'automne</title>
+            <author>Paul Verlaine</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Document de formation, non publié</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Recueil Poèmes Saturniens</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>Chanson d'automne</head>
+            <lg>
+               <l> Les sanglots longs</l>
+               <l>Des violons</l>
+               <l>De l’automne</l>
+               <l>Blessent mon coeur</l>
+               <l>D’une langueur</l>
+               <l>Monotone.</l>
+            </lg>
+            <lg>
+               <l>Tout suffocant</l>
+               <l>Et blême, quand</l>
+               <l>Sonne l’heure,</l>
+               <l>Je me souviens</l>
+               <l>Des jours anciens</l>
+               <l>Et je pleure</l>
+            </lg>
+
+            <lg>
+               <l>Et je m’en vais</l>
+               <l>Au vent mauvais</l>
+               <l>Qui m’emporte</l>
+               <l>Deçà, delà,</l>
+               <l>Pareil à la</l>
+               <l>Feuille morte.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

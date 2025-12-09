@@ -1,0 +1,86 @@
+TEI {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+fileDesc,
+titleStmt,
+publicationStmt,
+sourceDesc,
+profileDesc,
+respStmt,
+revisionDesc
+{
+    color: gray;
+    display: block;
+    margin: 10px;
+    border: 1px;
+    font: 10pt Verdana, sans-serif;
+    padding: 4px;
+}
+
+titleStmt editor,
+title{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    color: green;
+}
+
+idno, 
+facsimile, 
+sourceDesc,
+profileDesc,
+encodingDesc,
+revisionDesc,
+titleStmt editor,
+publicationStmt authority,
+publicationStmt availability,
+div[type = "bibliography"]
+{
+    display:none;
+}
+
+div {
+    display:block;
+    border-top: 1px dotted silver;
+    margin: 10px;
+    padding: 4px;
+}
+ex:before{
+    content:"(";
+}
+ex:after{
+    content:")";
+}
+supplied:before {
+     content:"[";
+}
+supplied:after {
+     content:"]";
+}
+listApp {
+    display:block;
+}
+app {
+    display:inline-block;
+}
+app[loc]:before {
+    content:attr(loc)", ";
+}
+lb:after {
+    content: "\a"attr(n); 
+    white-space: pre; 
+    color:#ededed;
+    padding-right:4px;
+}
+listApp num:after {
+    content:'´: ';
+}
+persName {
+    border-top: 2px solid silver;
+}
+name {
+    background: #ededed;
+}
