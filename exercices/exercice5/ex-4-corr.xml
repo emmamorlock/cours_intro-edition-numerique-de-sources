@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="affichage-tei.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">TD Antiquité numérique 2e partie - Exercice 4</title>
+                <editor>
+                    <persName xml:id="EM">
+                        <forename>Emmanuelle</forename>
+                        <surname>Morlock</surname>
+                    </persName>
+                </editor>
+            </titleStmt>
+            <publicationStmt>
+                <authority>HiSoMA</authority>
+                <idno type="filename">ex-4-corr</idno>
+                <availability>
+                    <licence>CC-BY</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>museum/archive</repository>
+                        <idno>inventory number</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>description of object/monument (likely to include <material/> and <objectType/> information, <dimensions/>, etc.)</support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>description of text field/campus</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>description of letters, possibly including <height>letter-heights</height>
+                            </handNote>
+                        </handDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <origPlace>Place of origin</origPlace>
+                            <origDate>Date of origin</origDate>
+                        </origin>
+                        <provenance type="found"> Findspot and circumstances/context </provenance>
+                        <provenance type="observed">Modern location(s) (if different from repository, above) </provenance>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><title>IRT308. <rs type="textType">Title</rs> and <rs type="textType">dedication</rs> for an image of Augusta Salutaris</title></creation>
+            <langUsage>
+                <language ident="eng">English</language>
+                <language ident="fra">French</language>
+                <language ident="lat">Latin</language>
+            </langUsage>
+        </profileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This file was created for pedagogical purposes. It updates the EpiDoc Encoding of <ref target="http://inslib.kcl.ac.uk/irt2009/IRT308.xml">IRT 308</ref>, from the
+                        <title>Inscriptions of Roman Tripolitania 2009</title> online corpus. It was marked up according to the EpiDoc Guidelines version 8.23. See
+                        <ref>www.stoa.org/epidoc/gl/latest/</ref></p>
+            </projectDesc>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#EM" when="2017-06-28">Creation of the file.</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://inslib.kcl.ac.uk/irt2009/images/pubimg/full/0369.jpg">
+            <desc>Ward-Perkins Archive, BSR (BSR 46.XXI.28)</desc>
+        </graphic>
+        <graphic url="https://inslib.kcl.ac.uk/irt2009/images/pubimg/full/0371.jpg">
+            <desc>Ward-Perkins Archive, BSR (Sopr. CLM 817)</desc>
+        </graphic>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+                        <persName type="divine"><name nymRef="Augusta" type="cognomen">Augusta</name> <name nymRef="Salutaris">Salutaris</name></persName>
+                   <lb n="2"/>
+                        <persName>
+                            <name nymRef="Caius" type="praenomen"><expan><abbr>C</abbr><ex>aius</ex></expan></name>
+                            <name nymRef="Vibius" type="gentilicium">Vibius</name> 
+                            <name nymRef="Marsus" type="cognomen">Marsus</name>
+                            <w lemma="proconsul">
+                                <expan><abbr>proco</abbr><ex>n</ex><abbr><supplied reason="lost">s</supplied></abbr><supplied reason="lost"><ex>ul</ex></supplied></expan>
+                            </w>
+                        </persName>
+                    <num value="3">
+                        <supplied reason="lost">I</supplied>II</num>
+                    <w lemma="dedico">dedicauit</w>
+                </ab>
+            </div>
+            <div type="apparatus">
+                <listApp>
+                    <app loc="2">
+                        <lem>
+                            <num value="3">III</num>
+                        </lem>
+                        <note>The superscript bar shows that a figure is lost.</note>
+                    </app>
+                </listApp>
+            </div>
+            <div type="translation">
+                <p>Augusta Salutaris. Caius Vibius Marsus, proconsul for the third year dedicated <supplied reason="subaudible">this</supplied>.</p>
+            </div>
+            <div type="commentary">
+                <p>l. 2. C. Vibius Marsus. Cos. suff. 17 - PIR (1) V 388.</p>
+            </div>
+            <div type="bibliography">
+                <listBibl>
+                    <bibl/>
+                </listBibl>
+            </div>
+        </body>
+    </text>
+</TEI>
