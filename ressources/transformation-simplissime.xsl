@@ -24,7 +24,7 @@
     </xsl:text>
     <!-- Dénombrer les mots (balises w) en utilisant XPath   -->
     
-    <xsl:text>Nombre de mots (balise w) : </xsl:text>
+    <xsl:text>Nombre de références (balise w) : </xsl:text>
     <xsl:value-of select="count(//w)"/>
   </xsl:template>
   
