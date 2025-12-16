@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exercice d'édition numérique d'une carte postale</title>
+                <respStmt>
+                    <resp>Encodeur TEI</resp>
+                    <name>Emmanuelle Morlock</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename">carte-postale-en-epidoc</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>France</settlement>
+                        <repository>Médiathèque intercommunale Pau-Pyrénées</repository>
+                        <collection>Fonds Paul-Jean Toulet ; Don La Blanchetai, 1966</collection>
+                        <idno>Ms216-30</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author>Claude Debussy</author>
+                            <title>Carte postale de Claude Debussy à Paul-Jean Toulet </title>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>Carte postale en <material>carton</material>
+                                </support>
+                            </supportDesc>
+                            <layoutDesc>
+                                <layout>Message et adresse du destinataire au verso du document.</layout>
+                            </layoutDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <handNote>Ecriture manuscrite de Claude Debussy.</handNote>
+                        </handDesc>
+                    </physDesc>
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term>Correspondance</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10582689t/f1/full/full/0/native.jpg"/>
+        <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/btv1b10582689t/f2/full/full/0/native.jpg"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="edition" xml:space="preserve">
+                <ab>
+                    <lb n="1"/>
+Cher Toulet,
+                    <lb n="2"/>
+Vous savez qu'on n'a jamais
+                    <lb n="3"/>
+le temps d'écrire à <placeName>Paris</placeName>. C'est
+               pourquoi je suis à Rome
+                    <lb n="4"/>
+                    <choice>
+                        <orig>ou</orig>
+                        <reg>où</reg>
+                    </choice> je peux vous envoyer
+                    <lb n="5"/>
+ma vieille amitié et mes voeux les plus vifs pour <seg cert="high">nôtre</seg>
+                    <lb n="6"/>
+prochain retour à <placeName>Paris</placeName>.
+                    <lb n="7"/>
+                    <seg type="signature">Votre vieux dévoué, 
+                        <lb n="8"/>
+                        <persName>Claude Debussy</persName>
+                    </seg>
+                </ab>
+            </div>
+            <!--<div type="apparatus">
+                <p>external apparatus criticus (if applicable)</p>
+            </div>-->
+            <div type="translation">
+                <p>Dear Toulet,
+You know that one never has time to write in Paris. That's why I am in Rome where I can send you my old friendship and my warmest wishes for our upcoming return to Paris.</p>
+            </div>
+            <div type="commentary">
+                <p>Cette carte postale est une lettre manuscrite de Claude Debussy à Paul-Jean Toulet, envoyée depuis Rome. Elle exprime l'amitié entre les deux correspondants.</p>
+            </div>
+            <!--<div type="bibliography">
+                <p>bibliography of previous editions, discussion, etc.</p>
+            </div>-->
+        </body>
+    </text>
+</TEI>
